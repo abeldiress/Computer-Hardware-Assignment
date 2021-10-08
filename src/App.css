@@ -1,3 +1,17 @@
 .App {
   text-align: center;
 }
+.explanation {
+  margin-top: 20px;
+  width: "20%";
+  padding: 20px;
+  background-color: greenyellow;
+  justify-content: start;
+}
+.explanation-wrong {
+  margin-top: 20px;
+  width: "20%";
+  padding: 20px;
+  background-color: red;
+  justify-content: start;
+}

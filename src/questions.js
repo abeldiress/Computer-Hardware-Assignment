@@ -5,7 +5,15 @@ const questions = [
     answer: "Bob",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/8/87/Spas_na_Ilyine_-_Patriarch_Abel.jpg",
-    explanation: "Yes my name is Abel...",
+    explanation: "my name is Abel...",
+  },
+  {
+    question: "What is my birthday?",
+    options: ["aa", "bb", "cc", "dd"],
+    answer: "aa",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/Spas_na_Ilyine_-_Patriarch_Abel.jpg",
+    explanation: "fdklfdjdfkj",
   },
 ];
 
