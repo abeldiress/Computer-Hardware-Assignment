@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import questions from "./questions";
 
 function App() {
+  const [num, setNum] = useState(0);
+  const [score, setScore] = useState(0);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome to the Computer Hardware Quiz!</h1>
+      <h3>{questions[num]["question"]}</h3>
+      <p></p>
+      <img alt="" src={questions[num]["image"]} />
     </div>
   );
 }
